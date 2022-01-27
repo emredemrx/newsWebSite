@@ -1,0 +1,695 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+.home .canli {
+  background-color: #03031D;
+  width: 100%;
+  transition: all 300ms; }
+  .home .canli .video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transition: all 300ms; }
+    .home .canli .video iframe {
+      width: 90%;
+      transition: all 300ms; }
+.home .canlikapat {
+  width: 100%;
+  height: 0 !important;
+  opacity: 0; }
+.home .yayinVideokapat {
+  height: 0 !important;
+  opacity: 0; }
+.home .usthaber {
+  padding: 0 0 50px 0;
+  background: linear-gradient(180deg, #03031d 0%, rgba(3, 3, 29, 0.4710084717) 100%); }
+  .home .usthaber .doviz {
+    padding: 25px 0; }
+    .home .usthaber .doviz .swiper-container {
+      width: 100%;
+      height: 100%;
+      z-index: 0 !important; }
+      .home .usthaber .doviz .swiper-container .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center; }
+        .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol {
+          position: relative;
+          background-color: rgba(17, 35, 94, 0.459);
+          border-radius: 10px;
+          height: 100px;
+          overflow: hidden;
+          transition: all 300ms;
+          display: flex;
+          justify-content: space-between; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol i {
+            font-size: 200px;
+            position: absolute;
+            fill: rgba(100, 100, 100, 0.39);
+            left: 0;
+            top: -50px;
+            opacity: 0.02;
+            transform: rotate(0deg);
+            transition: all 300ms; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol paraicon {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 15px;
+            font-size: 35px;
+            top: 50%;
+            opacity: 0.09; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol svg {
+            position: absolute;
+            fill: rgba(114, 114, 114, 0.24);
+            left: 0;
+            top: -50px;
+            opacity: 0.02;
+            transform: rotate(0deg);
+            transition: all 300ms;
+            width: 165px;
+            height: 165px; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol .kisaltma {
+            position: absolute;
+            top: 10px;
+            color: #069;
+            font-size: 16px;
+            left: 20px;
+            transition: all 300ms; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol .kriptoParaCharts {
+            position: absolute;
+            height: 23px;
+            top: 50px;
+            left: 20px; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol .ustfiyat {
+            position: absolute;
+            height: 23px;
+            top: 20px;
+            left: 135px;
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.212);
+            font-family: 'Montserrat', sans-serif;
+            transition: all 300ms; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol .fiyat {
+            position: absolute;
+            height: 23px;
+            top: 50px;
+            left: 135px;
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.521);
+            font-family: 'Montserrat', sans-serif; }
+        .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol:hover {
+          background-color: rgba(22, 41, 134, 0.493); }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol:hover .ustfiyat {
+            top: 50px;
+            opacity: 0; }
+          .home .usthaber .doviz .swiper-container .swiper-slide .kriptocol:hover .kisaltma {
+            font-size: 20px; }
+  .home .usthaber .homeBigNew .homebignewimagecol {
+    overflow: hidden;
+    padding: 0; }
+    .home .usthaber .homeBigNew .homebignewimagecol .item {
+      background-size: cover !important;
+      position: relative; }
+    .home .usthaber .homeBigNew .homebignewimagecol a {
+      padding: 0;
+      color: #069;
+      text-decoration: none; }
+    .home .usthaber .homeBigNew .homebignewimagecol .main {
+      background: #e3e3e3;
+      background-size: auto;
+      float: left;
+      width: 100%; }
+      .home .usthaber .homeBigNew .homebignewimagecol .main .kategori {
+        position: absolute;
+        height: 19px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        background-color: #c70000;
+        font-size: 13px;
+        padding: 0 15px;
+        color: white;
+        font-family: 'Heebo', sans-serif;
+        font-weight: "Regular 400";
+        left: 20px;
+        top: 20px;
+        z-index: 0;
+        -webkit-box-shadow: 12px 11px 29px -3px #3d000b;
+        -moz-box-shadow: 12px 11px 29px -3px #3d000b;
+        box-shadow: 12px 11px 29px -3px #3d000b; }
+      .home .usthaber .homeBigNew .homebignewimagecol .main img {
+        display: block;
+        width: 100%; }
+      .home .usthaber .homeBigNew .homebignewimagecol .main .full-wh-bg-img {
+        height: inherit;
+        object-fit: cover; }
+      .home .usthaber .homeBigNew .homebignewimagecol .main .fivelex-gradient {
+        overflow: hidden;
+        padding: 10px 15px;
+        background-image: linear-gradient(0deg, black 0%, rgba(0, 0, 0, 0) 79%);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        height: 120px; }
+        .home .usthaber .homeBigNew .homebignewimagecol .main .fivelex-gradient .title {
+          font-family: Arial, Helvetica, sans-serif;
+          padding: 0 0 20px 0;
+          line-height: 1.2;
+          color: white;
+          text-shadow: 1px 1px 1px #000; }
+      .home .usthaber .homeBigNew .homebignewimagecol .main span {
+        position: absolute;
+        top: 10px;
+        left: 10px; }
+    .home .usthaber .homeBigNew .homebignewimagecol .haberimageszoom {
+      width: 100%;
+      position: relative;
+      transition: all 300ms;
+      object-fit: cover; }
+    .home .usthaber .homeBigNew .homebignewimagecol .haberimageszoom:hover {
+      transform: scale(1.05); }
+    .home .usthaber .homeBigNew .homebignewimagecol span {
+      bottom: 0;
+      position: absolute;
+      z-index: 11; }
+.home .anaHaber {
+  background-color: rgba(12, 21, 75, 0.404);
+  min-height: 350px;
+  -webkit-box-shadow: inset 10px 200px 131px -118px #051026;
+  -moz-box-shadow: inset 10px 200px 131px -118px #051026;
+  box-shadow: inset 10px 200px 131px -118px #051026; }
+  .home .anaHaber .homePageBlockTitle {
+    position: relative;
+    transition: all 300ms;
+    overflow: hidden; }
+    .home .anaHaber .homePageBlockTitle h4 {
+      left: -150px;
+      z-index: 1; }
+    .home .anaHaber .homePageBlockTitle .cizgi {
+      width: 0;
+      height: 4px;
+      background-color: #ff0606;
+      top: 50px;
+      position: absolute;
+      z-index: 0;
+      transition: all 300ms;
+      left: 0; }
+  .home .anaHaber .homePageBlockTitle:hover .cizgi {
+    width: 15%; }
+  .home .anaHaber .haberSlider {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    .home .anaHaber .haberSlider .swiper-container {
+      width: 100%;
+      min-height: 300px;
+      z-index: 0; }
+      .home .anaHaber .haberSlider .swiper-container .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0);
+        color: black;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        overflow: hidden; }
+        .home .anaHaber .haberSlider .swiper-container .swiper-slide a {
+          text-decoration: none; }
+          .home .anaHaber .haberSlider .swiper-container .swiper-slide a .images {
+            width: 100%;
+            position: relative;
+            transition: all 300ms;
+            max-height: 190px;
+            overflow: hidden; }
+            .home .anaHaber .haberSlider .swiper-container .swiper-slide a .images img {
+              width: 100%;
+              object-fit: cover;
+              height: 190px; }
+          .home .anaHaber .haberSlider .swiper-container .swiper-slide a .images:hover {
+            transform: scale(1.09);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }
+          .home .anaHaber .haberSlider .swiper-container .swiper-slide a .kategori {
+            position: absolute;
+            height: 19px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background-color: #c70000;
+            font-size: 13px;
+            padding: 0 15px;
+            color: white;
+            font-family: 'Heebo', sans-serif;
+            font-weight: "Regular 400";
+            left: 10px;
+            top: 10px;
+            -webkit-box-shadow: 12px 11px 29px -3px #3d000b;
+            -moz-box-shadow: 12px 11px 29px -3px #3d000b;
+            box-shadow: 12px 11px 29px -3px #3d000b; }
+          .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt {
+            padding: 10px; }
+            .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .tarih {
+              display: flex;
+              justify-content: left;
+              align-content: center;
+              float: left;
+              margin-top: 5px;
+              color: white;
+              font-size: 14px;
+              opacity: 0.7; }
+              .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .tarih span {
+                margin-left: 10px; }
+              .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .tarih i {
+                margin: 0;
+                padding: 0;
+                line-height: 1.5; }
+            .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .anahaberSliderBaslik {
+              width: 100%;
+              margin-top: 40px; }
+              .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .anahaberSliderBaslik h4 {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: 'Heebo', sans-serif;
+                font-weight: "Regular 400";
+                color: white;
+                text-align: left; }
+              .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .anahaberSliderBaslik h4:hover {
+                text-decoration: underline #FF3028; }
+            .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .goruntulenme {
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+              color: white; }
+              .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .goruntulenme i {
+                color: white;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                font-size: 16px; }
+              .home .anaHaber .haberSlider .swiper-container .swiper-slide a .slideralt .goruntulenme span {
+                margin-left: 10px;
+                font-size: 13px; }
+.home .videohaber {
+  width: 100%;
+  min-height: 450px;
+  background: black;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7735294802) 0%, rgba(0, 0, 0, 0.3561625334) 100%); }
+  .home .videohaber .homePageBlockTitle {
+    position: relative;
+    transition: all 300ms;
+    overflow: hidden; }
+    .home .videohaber .homePageBlockTitle h4 {
+      left: -150px;
+      z-index: 1; }
+    .home .videohaber .homePageBlockTitle .cizgi {
+      width: 0;
+      height: 4px;
+      background-color: #ff0606;
+      top: 50px;
+      position: absolute;
+      z-index: 0;
+      transition: all 300ms;
+      left: 0; }
+  .home .videohaber .homePageBlockTitle:hover .cizgi {
+    width: 15%; }
+  .home .videohaber .videoHaberContainer .videocol {
+    margin-bottom: 15px;
+    margin-top: 15px; }
+    .home .videohaber .videoHaberContainer .videocol iframe {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      padding: 0; }
+    .home .videohaber .videoHaberContainer .videocol .date {
+      display: flex;
+      justify-content: left;
+      align-content: center;
+      float: left;
+      margin-top: 5px;
+      color: white;
+      font-size: 14px;
+      opacity: 0.7; }
+      .home .videohaber .videoHaberContainer .videocol .date span {
+        margin-left: 6px;
+        margin-top: -2px; }
+      .home .videohaber .videoHaberContainer .videocol .date i {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5; }
+.home .mansethaberleri {
+  margin-top: 20px; }
+  .home .mansethaberleri .homePageBlockTitle {
+    position: relative;
+    transition: all 300ms;
+    overflow: hidden; }
+    .home .mansethaberleri .homePageBlockTitle h4 {
+      left: -150px;
+      z-index: 1; }
+    .home .mansethaberleri .homePageBlockTitle .cizgi {
+      width: 0;
+      height: 4px;
+      background-color: #ff0606;
+      top: 50px;
+      position: absolute;
+      z-index: 0;
+      transition: all 300ms;
+      left: 0; }
+  .home .mansethaberleri .homePageBlockTitle:hover .cizgi {
+    width: 15%; }
+  .home .mansethaberleri .slider {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+    .home .mansethaberleri .slider .swiper-container {
+      width: 100%;
+      min-height: 300px;
+      z-index: 0; }
+      .home .mansethaberleri .slider .swiper-container .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: rgba(255, 255, 255, 0);
+        color: black;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        overflow: hidden; }
+        .home .mansethaberleri .slider .swiper-container .swiper-slide a {
+          text-decoration: none; }
+          .home .mansethaberleri .slider .swiper-container .swiper-slide a .images {
+            width: 100%;
+            position: relative;
+            transition: all 300ms;
+            max-height: 190px;
+            overflow: hidden; }
+            .home .mansethaberleri .slider .swiper-container .swiper-slide a .images img {
+              width: 100%;
+              object-fit: cover;
+              height: 190px; }
+          .home .mansethaberleri .slider .swiper-container .swiper-slide a .images:hover {
+            transform: scale(1.09);
+            /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */ }
+          .home .mansethaberleri .slider .swiper-container .swiper-slide a .kategori {
+            position: absolute;
+            height: 19px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            background-color: #c70000;
+            font-size: 13px;
+            padding: 0 15px;
+            color: white;
+            font-family: 'Heebo', sans-serif;
+            font-weight: "Regular 400";
+            left: 10px;
+            top: 10px;
+            -webkit-box-shadow: 12px 11px 29px -3px #3d000b;
+            -moz-box-shadow: 12px 11px 29px -3px #3d000b;
+            box-shadow: 12px 11px 29px -3px #3d000b; }
+          .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt {
+            padding: 10px; }
+            .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .tarih {
+              display: flex;
+              justify-content: left;
+              align-content: center;
+              float: left;
+              margin-top: 5px;
+              color: white;
+              font-size: 14px;
+              opacity: 0.7; }
+              .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .tarih span {
+                margin-left: 10px; }
+              .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .tarih i {
+                margin: 0;
+                padding: 0;
+                line-height: 1.5; }
+            .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .anahaberSliderBaslik {
+              width: 100%;
+              margin-top: 40px; }
+              .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .anahaberSliderBaslik h4 {
+                font-size: 18px;
+                line-height: 24px;
+                font-family: 'Heebo', sans-serif;
+                font-weight: "Regular 400";
+                color: white;
+                text-align: left; }
+              .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .anahaberSliderBaslik h4:hover {
+                text-decoration: underline #FF3028; }
+            .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .goruntulenme {
+              display: flex;
+              justify-content: flex-end;
+              align-items: center;
+              color: white; }
+              .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .goruntulenme i {
+                color: white;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                font-size: 16px; }
+              .home .mansethaberleri .slider .swiper-container .swiper-slide a .slideralt .goruntulenme span {
+                margin-left: 10px;
+                font-size: 13px; }
+.home .downnews .snipNews {
+  margin-top: 20px;
+  position: relative;
+  bottom: 0;
+  transition: all 300ms; }
+  .home .downnews .snipNews a .snip1527 {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-family: 'Lato', Arial, sans-serif;
+    font-size: 16px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    max-height: 450px;
+    height: 330px;
+    object-fit: cover; }
+    .home .downnews .snipNews a .snip1527 img {
+      width: 100%;
+      height: 330px;
+      vertical-align: top;
+      position: relative;
+      object-fit: cover; }
+    .home .downnews .snipNews a .snip1527 .kategori {
+      position: absolute;
+      height: 19px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      background-color: #c70000;
+      font-size: 13px;
+      padding: 0 15px;
+      color: white;
+      font-family: 'Heebo', sans-serif;
+      font-weight: "Regular 400";
+      left: 10px;
+      top: 10px;
+      -webkit-box-shadow: 12px 11px 29px -3px #3d000b;
+      -moz-box-shadow: 12px 11px 29px -3px #3d000b;
+      box-shadow: 12px 11px 29px -3px #3d000b; }
+    .home .downnews .snipNews a .snip1527 .new-footer {
+      padding: 25px 20px 25px;
+      position: absolute;
+      bottom: 0;
+      z-index: 0;
+      height: 135px;
+      width: 100%; }
+      .home .downnews .snipNews a .snip1527 .new-footer .date {
+        background-color: #fff;
+        border-radius: 50%;
+        color: #700877;
+        font-size: 18px;
+        font-weight: 700;
+        min-height: 48px;
+        min-width: 48px;
+        padding: 10px 0;
+        position: absolute;
+        right: 15px;
+        text-align: center;
+        text-transform: uppercase;
+        top: -25px; }
+        .home .downnews .snipNews a .snip1527 .new-footer .date span {
+          display: block;
+          line-height: 14px; }
+        .home .downnews .snipNews a .snip1527 .new-footer .date .month {
+          font-size: 11px; }
+      .home .downnews .snipNews a .snip1527 .new-footer .title {
+        width: 200px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap; }
+        .home .downnews .snipNews a .snip1527 .new-footer .title span {
+          font-size: 17px;
+          font-weight: bold; }
+      .home .downnews .snipNews a .snip1527 .new-footer .paragraf {
+        font-size: 12px; }
+    .home .downnews .snipNews a .snip1527 .new-footer:before {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: #700877;
+      content: '';
+      background: #0317ab;
+      background: -moz-linear-gradient(90deg, rgba(3, 23, 171, 0.7651261188) 0%, rgba(36, 36, 36, 0.9387955866) 56%, rgba(0, 0, 0, 0.7903362028) 82%);
+      background: -webkit-linear-gradient(90deg, rgba(3, 23, 171, 0.7651261188) 0%, rgba(36, 36, 36, 0.9387955866) 56%, rgba(0, 0, 0, 0.7903362028) 82%);
+      background: linear-gradient(90deg, rgba(3, 23, 171, 0.7651261188) 0%, rgba(36, 36, 36, 0.9387955866) 56%, rgba(0, 0, 0, 0.7903362028) 82%);
+      z-index: -1;
+      -webkit-box-shadow: inset -6px -39px 50px -18px #171717;
+      box-shadow: inset -6px -39px 50px -18px #171717; }
+  .home .downnews .snipNews a .snip1527 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
+  .home .downnews .snipNews a .snip1527:hover img,
+  .home .downnews .snipNews a .snip1527.hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1); }
+.home .downnews .homedownbaslikhaber .sonHaber {
+  border-bottom: 1px solid rgba(221, 221, 221, 0.24);
+  padding: 15px 10px; }
+  .home .downnews .homedownbaslikhaber .sonHaber .sonHabertitle {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold; }
+.home .downnews .homedownbaslikhaber .sonHaberler ol {
+  margin: 0;
+  padding: 0; }
+  .home .downnews .homedownbaslikhaber .sonHaberler ol a {
+    text-decoration: none;
+    color: #fff; }
+    .home .downnews .homedownbaslikhaber .sonHaberler ol a li {
+      transition: all 200ms;
+      height: 100px;
+      list-style: none;
+      margin-top: 15px;
+      width: 100%; }
+      .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow {
+        transition: all 300ms;
+        display: flex;
+        flex-direction: row; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .gorsel {
+          overflow: hidden;
+          width: 120px; }
+          .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .gorsel img {
+            height: 100px;
+            width: 120px; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle::before {
+          transform: scaleY(0);
+          transform-origin: bottom right; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle:hover::before {
+          transform: scaleY(1);
+          transform-origin: bottom left; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle::before {
+          content: " ";
+          display: block;
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background: #0b074960;
+          z-index: -1;
+          transition: transform .3s ease; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle {
+          position: relative; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle {
+          width: 100%;
+          height: 100px;
+          padding: 10px 20px;
+          border-top: 1px solid rgba(255, 255, 255, 0.041);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.041);
+          border-right: 1px solid rgba(255, 255, 255, 0.041);
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between; }
+          .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle span {
+            font-family: 'PT Sans', sans-serif;
+            font-weight: Bold 700; }
+          .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle .goruntulenme {
+            display: flex;
+            align-items: center; }
+            .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle .goruntulenme i {
+              color: rgba(255, 255, 255, 0.733); }
+            .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .haberTitle .goruntulenme .goruntulenmesayisi {
+              font-size: 13px;
+              color: rgba(255, 255, 255, 0.692);
+              margin-left: 7px; }
+        .home .downnews .homedownbaslikhaber .sonHaberler ol a li .shadow .kategori {
+          position: absolute;
+          height: 19px;
+          display: flex;
+          justify-content: center;
+          align-content: center;
+          background-color: #c70000;
+          font-size: 13px;
+          padding: 0 15px;
+          color: white;
+          font-family: 'Heebo', sans-serif;
+          font-weight: "Regular 400";
+          right: 10px;
+          bottom: 10px; }
+    .home .downnews .homedownbaslikhaber .sonHaberler ol a li:hover {
+      -webkit-box-shadow: 10px 10px 0px -5px #130970;
+      -moz-box-shadow: 10px 10px 0px -5px #130970;
+      box-shadow: 10px 10px 0px -5px #130970; }
+    .home .downnews .homedownbaslikhaber .sonHaberler ol a .number {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 35px;
+      margin-left: -13px;
+      width: 28px;
+      height: 28px;
+      max-width: 28px;
+      max-height: 28px;
+      padding: 0;
+      text-align: center;
+      color: #fff;
+      font-family: Arial;
+      font-size: .875em;
+      font-weight: 700;
+      font-style: normal;
+      border-radius: 100%;
+      background-clip: padding-box;
+      line-height: 28px;
+      border: 3px solid #fff;
+      background: #130970 !important;
+      user-select: none; }
+.home .hideme {
+  opacity: 0;
+  top: 150px;
+  transition: all 600ms; }
+
+.youtube-maps {
+  position: relative;
+  padding-bottom: 55%;
+  height: 0;
+  overflow: hidden; }
+
+.youtube-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
+
+/*# sourceMappingURL=home.css.map */

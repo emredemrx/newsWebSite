@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+
+$cardbackground : linear-gradient(90deg, rgba(2, 1, 17, 0.611) 0%, rgba(0,0,0,0.38137261740633754) 35%);
+body{
+    overflow-x: hidden;
+}
+input{
+    outline: 0;
+}
+.contact{
+    .container{
+       .contact-images{ 
+           user-select: none;
+           img{
+               user-select: none;
+           }
+            .resimYazisi{
+                color: white;
+                left:10px;top:10px;
+                font-family: 'Montserrat', sans-serif;
+                font-weight: "normal";
+                left:10px;
+                top:10px;
+            }
+            .resimYazisiTitle{
+                color: white;
+                left:10px;
+                font-family: 'Montserrat', sans-serif;
+            }
+            .arkakutu{
+                border-radius:36% 64% 51% 49% / 30% 42% 58% 70% ;
+                 width: 80vh;
+                 height: 80vh;
+                 position: absolute;
+                 background: rgba(88, 88, 88, 0.07);
+                 left: -20vmin;
+                 top: -20vmin;
+                 animation-name: spin;
+                 animation-duration: 6500ms;
+                 animation-iteration-count: infinite;
+                 animation-timing-function: linear; 
+                 z-index: -1;
+                 will-change: border-radius, transform;
+                 transform-origin: 55% 55%;
+                 pointer-events: none;
+             }
+             .arkakutu1{
+                 border-radius:100% 62% 79% 88% / 78% 82% 80% 70% ;
+                 width: 60vh;
+                 height: 60vh;
+                 position: absolute;
+                 background: rgba(88, 88, 88, 0.07);
+                 left: 80vmin;
+                 top: 100vmin;
+                 animation-name: spin;
+                 animation-duration: 6500ms;
+                 animation-iteration-count: infinite;
+                 animation-timing-function: linear; 
+                 z-index: -1;
+                 will-change: border-radius, transform;
+                 transform-origin: 55% 55%;
+                 pointer-events: none;
+             }
+        }
+        .carts{
+            margin-top: 50px;
+            .row{
+                .contact-cart{
+                    .box{ 
+                        overflow: hidden;
+                        width: 100%;
+                        background: $cardbackground;
+                        transform: perspective(300px); 
+                        transform-style: preserve-3d;
+                        
+                        svg{
+                            position: absolute;
+                            fill: rgb(70, 70, 70);
+                            height: 450px;
+                            width: 450px;
+                            left: -150px;
+                            opacity: 0.1;
+                            transform:rotate(45deg);transition: all 300ms ;
+                        }
+                        .col-12{
+                            transform: translateZ(20px);
+                            .contact-icon{
+                                display: flex;
+                                width: 100%;
+                                justify-content: center;
+                            }
+                            .contact-address{
+                                width: 100%;
+                                display: flex;
+                                justify-content: center;
+                                margin-top: 25px;
+                                font-family: 'Montserrat', sans-serif;
+                            }
+                            p{
+                                margin-top: 10px;
+                                width: 100%;
+                                display: flex;
+                                height: 100%;
+                                align-items: center;
+                                justify-content: center;
+                            }
+                            .contact-cart-phone{
+                                padding: 10px 20px;
+                                .contact-baslik{
+                                    margin-top:15px ;
+                                    font-family: 'Montserrat', sans-serif;
+                                    font-weight: bold;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    white-space: nowrap;
+                                    span{
+                                        width: 33.33%;
+                                    }
+                                    div{
+                                        display: flex;
+                                        flex-direction: column;
+                                        p{
+                                            margin: 0;
+                                            padding: 0;
+                                            white-space: nowrap;
+                                        }
+                                    }
+                                }
+                            }
+                        } 
+                    }
+                    .box:hover{
+                        svg{
+                            opacity: 0.3;fill: rgba(70, 67, 128, 0.671);
+                        }
+                    }
+                   
+                }
+            }
+            .lower-contact-cart{
+                justify-content: center;
+                a{
+                    cursor: pointer;
+                    text-decoration: none;
+                    color: white;
+                    .box-lower{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                        padding: 20px;
+                        background: $cardbackground;
+                        transform: perspective(300px); 
+                        transform-style: preserve-3d;
+                        overflow: hidden;
+                        height: 100px;
+                        transition: transform .2s;
+                        transition: all 300ms ;
+                        svg{
+                            position: absolute;
+                            fill: rgb(70, 70, 70);
+                            height: 350px;
+                            width: 350px;
+                            left: -100px;
+                            opacity: 0.2;
+                            top:-100px;
+                            z-index: -1;
+                            transition: all 300ms ;
+                        }
+                        .col-12{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            .mail-text{
+                                font-family: 'Montserrat' sans-serif;
+                            
+                            }
+                            /* .contact-icon{
+                                i{
+                                    display: flex;
+                                    width: 100%;
+                                    justify-content: start;
+                                    z-index: 1;
+                                }
+                            } */
+                        }
+                    }
+                    .box-lower:hover{transform: scale(1.03);
+                        svg{
+                            opacity: 0.4;
+                            fill: rgba(70, 67, 128, 0.671);
+                        }
+                    }
+                }
+            }
+            .lower-contact-map{
+                .row{
+                    .map-area{
+                        iframe{
+                            width: 100%;padding: 0;
+                            margin: 0; 
+                            -webkit-box-shadow: 0px 0px 12px 0px rgb(253, 253, 253);
+                            -moz-box-shadow:    0px 0px 12px 0px rgb(255, 255, 255);
+                            box-shadow:         0px 0px 12px 0px rgb(255, 255, 255);
+                        }                  
+                    }
+
+                }
+            }
+            
+        } 
+    }
+ }
+.resimKapsayici {position:relative}
+.resimYazisi {position:absolute;}
+.resimYazisiTitle {position:absolute}
+.arkakutu {position:absolute}
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}

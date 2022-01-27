@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.streaming-up{
+    background-color: rgb(4, 2, 22);
+    width: 100%;
+    min-height: 350px;
+    padding: 0;
+    .streaming-logo{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom:2px solid #da3d3d73 ;
+        #logo_image{
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+            height: 30px;
+        }
+        span{
+            font-size: 25px;
+            font-family: 'Montserrat', sans-serif;
+            margin-left: 20px;
+        }
+    }
+    .week-area{
+        margin-top: 50px;
+        height: 110px;
+        width: 100%;
+        background-color: rgb(236, 236, 236);
+        margin: 0;
+        padding: 0;
+        ul{
+            margin: 0;
+            padding: 0;
+            a{
+                text-decoration: none;
+                color: white;
+                outline: 0;
+                li{
+                    position: relative;
+                    list-style: none;
+                    float: left;
+                    color: black;
+                    transition: all 300ms;
+                    width: calc(100% / 7);
+                    padding: 0;
+                    margin: 0;
+                    height: 110px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    border-right: 1px solid rgba(0, 0, 0, 0.397);
+                    -webkit-box-shadow: inset -38px 0px 40px -33px rgba(0,0,0,0.23);
+                    -moz-box-shadow: inset -38px 0px 40px -33px rgba(0,0,0,0.23);
+                    box-shadow: inset -38px 0px 40px -33px rgba(0,0,0,0.23);
+                    .day{
+                       
+                        font-weight: bold;
+                        font-family:  sans-serif;
+                    }
+                    .date{
+                        font-size: 17px;
+                    }
+                    &:nth-last-child(1){
+                        border-right: 0;
+                    }
+                }
+                li:hover{
+                    background-color: #da3d3d;
+                    color:white;
+                }
+                .active{
+                    background-color: #da3d3d;
+                    color:white;
+                }
+                .active::before{
+                    content: "";
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top: -40px;
+                    background-color: #da3d3d;
+                    color:white;
+                    clip-path: polygon(50% 100%, 1% 50%, 100% 50%);
+                }
+                .pageactive{
+                    background-color: #242424;
+                    color:white;
+                }
+                
+            }
+        }
+    }
+    .Akis-slider{
+        .swiper-container{
+            z-index:0;
+            width: 100%;
+            height: 150px;
+            .swiper-pagination-bullet{
+                background: #fff;
+            }
+            .swiper-pagination-bullet-active{
+                background: #b90000;
+            }
+        }
+        .swiper-slide{
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            /* ------- */
+            z-index:0;
+            text-decoration: none;
+            float: left;
+            color: black;
+            transition: all 300ms;
+            padding: 0;
+            margin: 0;
+            height: 110px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            border-right: 1px solid rgba(0, 0, 0, 0.397);
+            -webkit-box-shadow: inset -38px 0px 40px -33px rgba(0,0,0,0.23);
+            -moz-box-shadow: inset -38px 0px 40px -33px rgba(0,0,0,0.23);
+            box-shadow: inset -38px 0px 40px -33px rgba(0,0,0,0.23);
+            .day{
+                font-weight: bold;
+                font-family:  sans-serif;
+            }
+        }
+        .swiper-slide:hover{
+            background-color: #da3d3d;
+            color:white;
+        }
+        .active{
+            background-color: #da3d3d;
+            color:white;
+        }
+        .active::before{
+            content: "";
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: -40px;
+            background-color: #da3d3d;
+            color:white;
+            clip-path: polygon(50% 100%, 1% 50%, 100% 50%);
+        }
+        .pageactive{
+            background-color: #242424;
+            color:white;
+        }
+    }
+}
+.svg{
+    position: relative;
+   svg{
+       position:absolute;
+       z-index: -1;
+   }
+}
+.streaming-alt{
+    .yayin-saatleri{
+        margin-top: 50px;
+        ul{padding: 0;
+            margin: 0;
+            li{
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                .saatlikveri{
+                    margin-top: 10px;
+                        overflow: hidden;
+                        width: 100%;
+                        height: 130px;
+                        background: #040216;
+                        border-top:1px solid rgba(255, 255, 255, 0.164);
+                        border-bottom:1px solid rgba(255, 255, 255, 0.164);
+                        
+                        user-select: none;
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        padding: 0;
+                        transition:  all 300ms;
+                        .akis{
+                            width: 100%;
+                            
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: center;
+                            .saatVerisi{
+                                font-family: 'Bebas Neue', cursive;
+                            }
+                            .icerikadi{
+                                font-family: 'Bebas Neue', cursive;
+                            }  
+                        }
+                    .c{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 45% 55% 100% 0% / 0% 0% 100% 100% ;
+                        background-color: rgb(56, 56, 56);
+                        opacity: 0.4;
+                        display: flex;
+                        justify-content: flex-start;
+                        transition: all 300ms;
+                    }
+                }
+                .saatlikveri:hover{
+                    background: #e62525;
+                    .saatVerisi{
+                       color: white;
+                    }
+                    .icerikadi{
+                        color: white;
+                    }  
+                    .c{
+                        opacity: 0.1;
+                        background-color: rgb(255, 255, 255);
+                    }
+                }
+                .saatlikveri::after {
+                    display: fixed; 
+                    content: "";
+                    width: 100px;
+                    height: 130px;
+                    background-color: whitesmoke;
+                    transition: all 100ms;
+                    visibility: hidden;
+                    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+                }
+                .saatlikveri:hover::after {
+                    visibility: visible;
+                    
+                }
+                .active{
+                    background: #e62525;
+                    
+                }
+                .active::before{
+                    content: "";
+                    width: 40px;
+                    height: 40px;
+                    position: absolute;
+                    top: -40px;
+                    background-color: #da3d3d;
+                    color:white;
+                    clip-path: polygon(50% 100%, 1% 50%, 100% 50%);
+                }
+                .pageactive{
+                    background-color: #242424;
+                    color:white;
+                }
+            }
+        }
+    }
+}

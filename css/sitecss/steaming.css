@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.streaming-up {
+  background-color: #040216;
+  width: 100%;
+  min-height: 350px;
+  padding: 0; }
+  .streaming-up .streaming-logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #da3d3d73; }
+    .streaming-up .streaming-logo #logo_image {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      height: 30px; }
+    .streaming-up .streaming-logo span {
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+      margin-left: 20px; }
+  .streaming-up .week-area {
+    margin-top: 50px;
+    height: 110px;
+    width: 100%;
+    background-color: #ececec;
+    margin: 0;
+    padding: 0; }
+    .streaming-up .week-area ul {
+      margin: 0;
+      padding: 0; }
+      .streaming-up .week-area ul a {
+        text-decoration: none;
+        color: white;
+        outline: 0; }
+        .streaming-up .week-area ul a li {
+          list-style: none;
+          float: left;
+          color: black;
+          transition: all 300ms;
+          width: calc(100% / 7);
+          padding: 0;
+          margin: 0;
+          height: 110px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border-right: 1px solid rgba(0, 0, 0, 0.397);
+          -webkit-box-shadow: inset -38px 0px 40px -33px rgba(0, 0, 0, 0.23);
+          -moz-box-shadow: inset -38px 0px 40px -33px rgba(0, 0, 0, 0.23);
+          box-shadow: inset -38px 0px 40px -33px rgba(0, 0, 0, 0.23); }
+          .streaming-up .week-area ul a li .day {
+            font-weight: bold;
+            font-family: sans-serif; }
+          .streaming-up .week-area ul a li .date {
+            font-size: 17px; }
+          .streaming-up .week-area ul a li:nth-last-child(1) {
+            border-right: 0; }
+        .streaming-up .week-area ul a li:hover {
+          background-color: #da3d3d;
+          color: white; }
+        .streaming-up .week-area ul a .active {
+          background-color: #da3d3d;
+          color: white; }
+  .streaming-up .Akis-slider .swiper-container {
+    z-index: 0;
+    width: 100%;
+    height: 150px; }
+    .streaming-up .Akis-slider .swiper-container .swiper-pagination-bullet {
+      background: #fff; }
+    .streaming-up .Akis-slider .swiper-container .swiper-pagination-bullet-active {
+      background: #b90000; }
+  .streaming-up .Akis-slider .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* ------- */
+    z-index: 0;
+    text-decoration: none;
+    float: left;
+    color: black;
+    transition: all 300ms;
+    padding: 0;
+    margin: 0;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-right: 1px solid rgba(0, 0, 0, 0.397);
+    -webkit-box-shadow: inset -38px 0px 40px -33px rgba(0, 0, 0, 0.23);
+    -moz-box-shadow: inset -38px 0px 40px -33px rgba(0, 0, 0, 0.23);
+    box-shadow: inset -38px 0px 40px -33px rgba(0, 0, 0, 0.23); }
+    .streaming-up .Akis-slider .swiper-slide .day {
+      font-weight: bold;
+      font-family: sans-serif; }
+  .streaming-up .Akis-slider .swiper-slide:hover {
+    background-color: #da3d3d;
+    color: white; }
+  .streaming-up .Akis-slider .active {
+    background-color: #da3d3d;
+    color: white; }
+  .streaming-up .Akis-slider .pageactive {
+    background-color: #d86161;
+    color: white; }
+
+.svg {
+  position: relative; }
+  .svg svg {
+    position: absolute;
+    z-index: -1; }
+
+.streaming-alt .yayin-saatleri {
+  margin-top: 50px; }
+  .streaming-alt .yayin-saatleri ul {
+    padding: 0;
+    margin: 0; }
+    .streaming-alt .yayin-saatleri ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0; }
+      .streaming-alt .yayin-saatleri ul li .saatlikveri {
+        margin-top: 10px;
+        overflow: hidden;
+        width: 100%;
+        height: 130px;
+        background: #040216;
+        border-top: 1px solid rgba(255, 255, 255, 0.164);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+        user-select: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0;
+        transition: all 300ms; }
+        .streaming-alt .yayin-saatleri ul li .saatlikveri .akis {
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          align-items: center; }
+          .streaming-alt .yayin-saatleri ul li .saatlikveri .akis .saatVerisi {
+            font-family: 'Bebas Neue', cursive; }
+          .streaming-alt .yayin-saatleri ul li .saatlikveri .akis .icerikadi {
+            font-family: 'Bebas Neue', cursive; }
+        .streaming-alt .yayin-saatleri ul li .saatlikveri .c {
+          width: 150px;
+          height: 150px;
+          border-radius: 45% 55% 100% 0%/0% 0% 100% 100%;
+          background-color: #383838;
+          opacity: 0.4;
+          display: flex;
+          justify-content: flex-start;
+          transition: all 300ms; }
+      .streaming-alt .yayin-saatleri ul li .saatlikveri:hover {
+        background: #e62525; }
+        .streaming-alt .yayin-saatleri ul li .saatlikveri:hover .saatVerisi {
+          color: white; }
+        .streaming-alt .yayin-saatleri ul li .saatlikveri:hover .icerikadi {
+          color: white; }
+        .streaming-alt .yayin-saatleri ul li .saatlikveri:hover .c {
+          opacity: 0.1;
+          background-color: white; }
+      .streaming-alt .yayin-saatleri ul li .saatlikveri::after {
+        display: fixed;
+        content: "";
+        width: 100px;
+        height: 130px;
+        background-color: whitesmoke;
+        transition: all 100ms;
+        visibility: hidden;
+        clip-path: polygon(0 50%, 100% 100%, 100% 0); }
+      .streaming-alt .yayin-saatleri ul li .saatlikveri:hover::after {
+        visibility: visible; }
+      .streaming-alt .yayin-saatleri ul li .active {
+        background: #e62525; }
+
+/*# sourceMappingURL=steaming.css.map */

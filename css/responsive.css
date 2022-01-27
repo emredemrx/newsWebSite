@@ -1,0 +1,609 @@
+
+@media (min-width: 250px) { 
+    .logo{
+        width: 100%;
+    }
+    /*----------------iletisim---------------*/
+        .resimYazisi{
+            font-size: 20px;
+        }
+        .resimYazisiTitle{
+            font-size: 25px;
+            top: 45px;
+        }
+        .contact-icon i{
+            font-size: 40px;
+        }
+        .contact-cart .box .contact-address{
+            font-size: 28px;
+        }
+        .contact-cart .box .col-12 p {
+            font-size: 15px;
+        }
+        .contact-cart-phone .contact-baslik{
+            font-size: 11px;
+        }
+        .contact-cart-phone .contact-baslik div p{
+            font-size: 11px !important;
+        }
+        .box{
+            height: 300px;
+        }
+        .mail-text{
+            font-size:16px;
+        }
+    /*------------------------------------------*/
+    /*-------------------kunye-----------------*/
+        .icerik, .altsunucuicerik ul{
+            width: 100%;
+        }
+        .kunyeBaslik span{
+            font-size: 17px;
+        }
+        .kunyeAlt, .kunyeTitle, .ktitle{
+            font-size: 16px;
+        }
+        .kunyeAlt, .kunyeAltcol,.kunyeAltBaslik span{
+            font-size: 17px;
+        }
+    /*------------------------------------------*/
+     /*-------------------haberler---------------*/
+        
+     /*------------------------------------------*/
+     /*-------------------yayınakısı-------------*/
+        .swiper-slide, .day{
+            font-size: 15px;
+        }
+        .swiper-slide, .date{
+            font-size: 13px;
+        }
+        .svg svg{
+            top:0;
+        }
+        .akis, .icerikadi{
+            font-size: 18px;
+        }
+        .akis, .saatVerisi{
+            font-size: 60px;
+        }
+     /*------------------------------------------*/
+     /*-------------------haber detay------------*/
+        .detail{
+            width: 100%;
+        }
+        .habertitle, .title{
+            font-size: 20px;
+        }
+        .habertitle, .news-information span{
+            font-size: 13px;
+        }
+        .haberOzet{
+            font-size: 16px;
+        }
+        .icerikYazisi img{
+            height: 45vh !important;
+        }
+     /*------------------------------------------*/
+     /*-------------------ana sayfa------------*/
+        .canli{
+            height: 500px;
+        }
+        .video  iframe{
+            height: 300px;
+        }
+        .homesmallnewimages{
+            height: 270px ;
+        }
+        .homebignewimages{
+            height: 270px;
+        }
+        .fivelex-gradient, .title{
+            font-size: 18px;
+        }
+      /*------------------------------------------*/
+    
+}
+@media (min-width: 576px) { 
+        .logo{
+            width: 100%;
+        }
+    /*----------------iletisim-----------------*/
+        .resimYazisi{
+            font-size: 25px;
+        }
+        .resimYazisiTitle{
+            font-size: 35px;
+            top: 45px;
+        }
+        .contact-icon i{
+            font-size: 40px;
+        }
+        .contact-cart .box .contact-address{
+            font-size: 28px;
+        }
+        .contact-cart .box .col-12 p {
+            font-size: 15px;
+        }
+        .contact-cart-phone .contact-baslik{
+            font-size: 11px;
+        }
+        .contact-cart-phone .contact-baslik div p{
+            font-size: 11px  !important;
+        }
+        .box{
+            height: 300px;
+        }
+        .mail-text{
+            font-size:17px;
+        }
+    /*----------------------------------------*/
+    /*-------------------kunye-----------------*/
+        .icerik, .altsunucuicerik ul{
+            width: 100%;
+        }
+        .kunyeBaslik span{
+            font-size: 17px;
+        }
+        .kunyeAlt, .kunyeTitle, .ktitle{
+            font-size: 18px;
+        }
+        .kunyeAlt, .kunyeAltcol, .kunyeAltBaslik span{
+            font-size: 17px;
+        }
+    /*------------------------------------------*/
+    /*-------------------haberler-----------------*/
+       
+     /*------------------------------------------*/
+      /*-------------------yayınakısı-----------------*/
+        .swiper-slide, .day{
+            font-size: 16px;
+        }
+        .swiper-slide, .date{
+            font-size: 13px;
+        }
+        .svg svg{
+            top: -10px;
+        }
+        .akis, .icerikadi{
+            font-size: 22px;
+        }
+        .akis, .saatVerisi{
+            font-size: 70px;
+        }
+     /*------------------------------------------*/
+     /*-------------------haber detay------------*/
+        .detail{
+            width: 100%;
+        }
+        .habertitle, .title{
+            font-size: 25px;
+        }
+        .haberOzet{
+            font-size: 16px;
+        }
+        .icerikYazisi img{
+            height: 45vh !important;
+        }
+     /*------------------------------------------*/
+     /*-------------------ana sayfa------------*/
+        .canli{
+            height: 600px;
+        }
+        .video  iframe{
+            height: 450px;
+        }
+        .homesmallnewimages{
+            height: 270px ;
+        }
+        .homebignewimages{
+            height: 270px;
+        }
+        .fivelex-gradient, .title{
+            font-size: 18px;
+        }
+        
+     /*------------------------------------------*/
+}
+@media(min-width: 768px) {
+    .logo{
+        width: 100%;
+    }
+    /*----------------iletisim---------------*/
+        .resimYazisi{
+            font-size: 25px;
+        }
+        .resimYazisiTitle{
+            font-size: 40px;
+            top: 50px;
+        }
+        .contact-icon i{
+            font-size: 65px;
+        }
+        .contact-cart.box .contact-address{
+            font-size: 30px;
+        }
+        .contact-cart .box .col-12 p {
+            font-size: 16px;
+        }
+        .contact-cart-phone .contact-baslik{
+            font-size: 12px;
+        }
+        .contact-cart-phone .contact-baslik div p{
+            font-size: 12px  !important;
+        }
+        .box{
+            height: 350px;
+        }
+        .mail-text{
+            font-size:18px;
+        }
+    /*--------------------------------------*/
+    /*-------------------kunye-----------------*/
+        .altsunucuicerik ul{
+            width: 100%;
+        }
+        .kunyeBaslik span{
+            font-size: 18px;
+        }
+        .kunyeAlt, .kunyeTitle, .ktitle{
+            font-size: 18px;
+        }
+        .kunyeAlt, .kunyeAltcol,.kunyeAltBaslik span{
+            font-size: 17px;
+        }
+    /*------------------------------------------*/
+    /*-------------------haberler-----------------*/
+       
+     /*------------------------------------------*/
+      /*-------------------yayınakısı-----------------*/
+        .swiper-slide, .day{
+            font-size: 17px;
+        }
+        .swiper-slide, .date{
+            font-size: 14px;
+        }
+        .svg svg{
+            top: -20px;
+        }
+        .akis, .icerikadi{
+            font-size: 27px;
+        }
+        .akis, .saatVerisi{
+            font-size: 75px;
+        }
+     /*------------------------------------------*/
+     /*-------------------haber detay------------*/
+        .detail{
+            width: 100%;
+        }
+        .habertitle, .title{
+            font-size: 25px;
+        }
+        .haberOzet{
+            font-size: 17px;
+        }
+        .icerikYazisi img{
+            height: 55vh !important;
+        }
+     /*------------------------------------------*/
+     /*-------------------ana sayfa------------*/
+        .canli{
+            height: 600px;
+        }
+        .video  iframe{
+            height: 450px;
+        }
+        .homesmallnewimages{
+            max-height: 242px ;
+        }
+        .homebignewimages{
+            height: 492px;
+        }
+        .fivelex-gradient, .title{
+            font-size: 15px;
+        }
+    /*------------------------------------------*/
+}
+@media (min-width: 992px) {
+    .logo{
+        width: 100%;
+    }
+    /*----------------iletisim---------------*/
+        .resimYazisi{
+            font-size: 25px;
+        }
+        .resimYazisiTitle{
+            font-size: 40px;
+        }
+        .contact-icon i{
+            font-size: 65px;
+        }
+        .contact-cart .box .contact-address{
+            font-size: 30px;
+        }
+        .contact-cart .box .col-12 p {
+            font-size: 16px;
+        }
+        .contact-cart-phone .contact-baslik{
+            font-size: 13px;
+        }
+        .contact-cart-phone .contact-baslik div p{
+            font-size: 13px  !important;
+        }
+        .box{
+            height: 350px;
+        }
+        .mail-text{
+            font-size:20px;
+        }
+    /*--------------------------------------*/
+    /*-------------------kunye-----------------*/
+        .altsunucuicerik ul{
+            width: 100%;
+        }
+        .kunyeBaslik span{
+            font-size: 17px;
+        }
+        .kunyeAlt, .kunyeTitle, .ktitle{
+            font-size: 20px;
+        }
+        .kunyeAlt, .kunyeAltcol,.kunyeAltBaslik span{
+            font-size: 18px;
+        }
+    /*------------------------------------------*/
+    /*-------------------haberler-----------------*/
+       
+    /*------------------------------------------*/
+    /*-------------------yayınakısı-----------------*/
+        .swiper-slide, .day{
+            font-size: 18px;
+        }
+        .swiper-slide, .date{
+            font-size: 16px;
+        }
+        .svg svg{
+            top: -50px;
+        }
+        .akis, .icerikadi{
+            font-size: 30px;
+        }
+        .akis, .saatVerisi{
+            font-size: 80px;
+        }
+    /*------------------------------------------*/
+    /*-------------------haber detay------------*/
+        .detail{
+          width: 100%;
+        }
+        .habertitle, .title{
+            font-size: 30px;
+        } 
+        .haberOzet{
+            font-size: 17px;
+        }
+        .icerikYazisi img{
+            height: 55vh !important;
+        }
+     /*------------------------------------------*/
+     /*-------------------ana sayfa------------*/
+        .canli{
+            height: 750px;
+        }
+        .video  iframe{
+            height: 650px;
+        }
+        .homesmallnewimages{
+            max-height: 242px ;
+        }
+        .homebignewimages{
+            height: 492px;
+        }
+        .fivelex-gradient, .title{
+            font-size: 15px;
+        }
+    /*------------------------------------------*/
+}
+
+@media (min-width: 1200px) {
+        .logo{
+            width: 90px; 
+        }
+    /*----------------iletisim---------------*/
+        .resimYazisi{
+            font-size: 35px;
+        } .resimYazisiTitle{
+            font-size: 50px;
+        }
+        .contact-icon i{
+            font-size: 75px;
+        }
+        .contact-cart .box .contact-address{
+            font-size: 35px;
+        }
+        .contact-cart .box .col-12 p {
+            font-size: 18px;
+        }
+        .contact-cart-phone .contact-baslik{
+            font-size:17px;
+        }
+        .contact-cart-phone .contact-baslik div p{
+            font-size:16px  !important;
+        }
+        .box{
+            height: 400px;
+        }
+        .mail-text{
+            font-size:21px;
+        }
+    /*-------------------------------------*/
+    /*-------------------kunye-----------------*/
+        .altsunucuicerik ul{
+            width: 100%;
+        }
+        .kunyeBaslik span{
+            font-size: 20px;
+        }
+        .kunyeAlt, .kunyeTitle, .ktitle{
+            font-size: 20px;
+        }
+        .kunyeAlt, .kunyeAltcol,.kunyeAltBaslik span{
+            font-size: 19px;
+        }
+    /*------------------------------------------*/
+    /*-------------------haberler-----------------*/
+        
+     /*------------------------------------------*/
+     /*-------------------yayınakısı-----------------*/
+        .swiper-slide, .day{
+            font-size: 18px;
+        }
+        .swiper-slide, .date{
+            font-size: 17px;
+        }
+        .svg svg{
+            top: -80px;
+        }
+        .akis, .icerikadi{
+            font-size: 30px;
+        }
+        .akis, .saatVerisi{
+            font-size: 85px;
+        }
+     /*------------------------------------------*/
+      /*-------------------haber detay------------*/
+        .detail{
+            width: 90%;
+        }
+        .habertitle, .title{
+            font-size: 30px;
+        }
+        .haberOzet{
+            font-size: 18px;
+        }
+        .icerikYazisi img{
+            height: 65vh !important;
+        }
+        
+     /*------------------------------------------*/
+     /*-------------------ana sayfa------------*/
+        .canli{
+            height: 750px;
+        }
+        .video  iframe{
+            height: 650px;
+        }
+        .homesmallnewimages{
+            height: 242px ;
+        }
+        .homebignewimages{
+            height: 492px;
+        }
+        .fivelex-gradient, .title{
+            font-size: 18px;
+        }
+    /*------------------------------------------*/
+    
+}  
+
+
+@media (min-width: 1920px) {
+    .logo{
+        width: 90px;
+    }
+    /*----------------iletisim---------------*/
+        .resimYazisi{
+            font-size: 35px;
+        }
+        .resimYazisiTitle{
+            font-size: 55px;
+        }
+      
+        .contact-icon i{
+            font-size: 75px;
+        }
+        .contact-cart .box .contact-address{
+            font-size: 35px;
+        }
+        .contact-cart .box .col-12 p {
+            font-size: 18px;
+        }
+        .contact-cart-phone .contact-baslik{
+            font-size:18px;
+        }
+        .contact-cart-phone .contact-baslik div p{
+            font-size:17px  !important;
+        }
+        .box{
+            height: 400px;
+        }
+        .mail-text{
+            font-size: 22px;
+        }
+    /*--------------------------------------*/
+    /*-------------------kunye-----------------*/
+        .altsunucuicerik ul{
+            width: 100%;
+        }
+        .kunyeBaslik span{
+            font-size: 20px;
+        }
+        .kunyeAlt, .kunyeTitle, .ktitle{
+            font-size: 22px;
+        }
+        .kunyeAlt, .kunyeAltcol,.kunyeAltBaslik span{
+            font-size: 20px;
+        }
+    /*------------------------------------------*/
+    /*-------------------haberler-----------------*/
+       
+     /*------------------------------------------*/
+     /*-------------------yayınakısı-----------------*/
+        .swiper-slide, .day{
+            font-size: 18px;
+        }
+        .swiper-slide, .date{
+            font-size: 18px;
+        }
+        .svg svg{
+            top: -200px;
+        }
+        .akis, .icerikadi{
+            font-size: 30px;
+        }
+        .akis, .saatVerisi{
+            font-size: 90px;
+        }
+     /*------------------------------------------*/
+      /*-------------------haber detay------------*/
+        .detail{
+            width: 85%;
+        }
+        .habertitle, .title{
+            font-size: 35px;
+        }
+        .haberOzet{
+            font-size: 18px;
+        }
+        .icerikYazisi img{
+            height: 65vh !important;
+        }
+     /*------------------------------------------*/
+     /*-------------------ana sayfa------------*/
+        .canli{
+        height: 750px;
+        }
+        .video  iframe{
+            height: 650px;
+        }
+        .homesmallnewimages{
+            height: 242px ;
+        }
+        .homebignewimages{
+            height: 500px;
+        }
+        .fivelex-gradient, .title{
+            font-size: 25px;
+        }
+    /*------------------------------------------*/
+        
+}
